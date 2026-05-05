@@ -24,6 +24,7 @@
 	float: left;
 	height: 600px;
 	width: 1000px;
+	overflow: auto;
 }
 #item {
 	float: right;
@@ -48,7 +49,19 @@
 .texttitle {
 	font-family: "微軟正黑體 Light";
 	font-size: 36px;
-	color: #006;
+	color: #600;
+}
+.transition {
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.transition:hover {
+	-webkit-opacity: 0.5;
+	-moz-opacity: 0.5;
+	opacity: 0.5;
 }
 </style>
 <link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
@@ -59,31 +72,31 @@
 <div id="container">
   <div id="header"><img src="images/t02.jpg" width="1280" height="150" /></div>
   <div id="article">
-    <table width="1001" height="451" border="1">
+    <table width="1001" height="1405" border="0">
       <tr>
-        <td height="47" colspan="2">&nbsp;</td>
+        <td height="33" colspan="2" align="center" valign="middle"><a name="top" id="top"></a>臭豆腐臭非臭 | <a href="#anchor01">大林鄉土當歸鴨肉麵線 </a>| <a href="#anchor02">祖傳豆花 </a></td>
       </tr>
       <tr>
-        <td height="46" colspan="2">&nbsp;</td>
+        <td height="63" colspan="2"><p class="textword">這座靜謐的小鎮裡，沒有都市的喧囂，卻多了一份屬於日常的溫度。走在街道上，空氣中飄散著熟悉的香氣，那是代代相傳的好味道，也是大林人生活的一部分。這些美食或許樸實無華，卻承載著歲月的記憶與人情的連結。在這裡，每一口滋味，都是一段屬於小鎮的好時光。 </p></td>
       </tr>
       <tr>
         <td><p align="center" class="texttitle"><strong>火車站前臭豆腐 
           </strong></p>
-          <p class="textword">這家店絕對是大林鎮最有名的美食，很多人為了吃這盤臭豆腐專程下交流道，吃起來那個爆汁感跟特製的小魚辣椒，真的會讓你印象深刻！現在招牌上寫著「臭非臭」，網路上的名字是《<strong>大林火車站前臭豆腐臭非臭</strong>》，老實說，還沒走到店門口，那個「臭香味」就已經先飄過來了。《<strong>大林火車站前臭豆腐</strong>》現在店家採自助式取餐，門口掛著大大的「用餐須知」，內用的客人要先等聽號碼取餐後再找位置，千萬不要提早佔位，這點規矩要遵守喔！用餐環境的部分，這就是很傳統的台灣<a href="https://blake.com.tw/blog/post/chou-fei-chou" data-google-vignette="false" data-google-interstitial="false">&nbsp;小吃</a>店，整體來說非常簡潔，內用區雖然沒有什麼華麗裝潢，但至少有冷氣，這對夏天來吃熱食的人來說，簡直是救贖。<strong>菜單</strong>非常簡單直接，主要就是臭豆腐、大腸麵線跟大腸豬血湯這幾樣，價位大約在40元到65元之間，以現在的物價來看算很親民。整體來說，雖然要排隊抽號碼牌，但那個爆汁臭豆腐配上小魚辣椒，真的值得等。如果你路過嘉義大林，或是搭火車經過，一定要下來試試看這家連在地人都排隊的&nbsp;小吃。              資料來源:布雷克的出走旅行視界</p>
-          <p> 地址: 622嘉義縣大林鎮中山路13號 <br />
+          <p class="textword">這家店絕對是大林鎮最有名的美食，很多人為了吃這盤臭豆腐專程下交流道，吃起來那個爆汁感跟特製的小魚辣椒，真的會讓你印象深刻！現在招牌上寫著「臭非臭」，網路上的名字是《<strong>大林火車站前臭豆腐臭非臭</strong>》，老實說，還沒走到店門口，那個「臭香味」就已經先飄過來了。《<strong>大林火車站前臭豆腐</strong>》現在店家採自助式取餐，門口掛著大大的「用餐須知」，內用的客人要先等聽號碼取餐後再找位置，千萬不要提早佔位，這點規矩要遵守喔！用餐環境的部分，這就是很傳統的台灣<a href="https://blake.com.tw/blog/post/chou-fei-chou" data-google-vignette="false" data-google-interstitial="false">&nbsp;小吃</a>店，整體來說非常簡潔，內用區雖然沒有什麼華麗裝潢，但至少有冷氣，這對夏天來吃熱食的人來說，簡直是救贖。<strong>菜單</strong>非常簡單直接，主要就是臭豆腐、大腸麵線跟大腸豬血湯這幾樣，價位大約在40元到65元之間，以現在的物價來看算很親民。整體來說，雖然要排隊抽號碼牌，但那個爆汁臭豆腐配上小魚辣椒，真的值得等。如果你路過嘉義大林，或是搭火車經過，一定要下來試試看這家連在地人都排隊的&nbsp;小吃。           &nbsp; &nbsp; &nbsp; &nbsp;<strong>資料來源:布雷克的出走旅行視界</strong></p>
+          <p> 地址: 622嘉義縣大林鎮中山路13號<br />
         營業時間:星期二~星期日 12:00-19:30</p></td>
-        <td><img src="images/4.jpeg" width="500" height="375" /></td>
+        <td><img src="images/4.jpeg" width="500" height="375" class="transition" /></td>
       </tr>
       <tr>
-        <td><p align="center" class="texttitle"><strong>大林鄉土當歸鴨肉麵線</strong></p>
-          <p align="left" class="textword">鄉土當歸鴨肉麵線位於嘉義縣大林火車站的前站不遠處，步行約莫5分鐘，從前站門口直直向前走，在差不多100公尺處微右轉，之後繼續直走，差不多也是100公尺的地方，他就會在你的右手邊，雖說是微右轉，但也其實就一條路而已，不用怕會迷路！裡面的空間其實不大也不小，桌子大概10來張，還是可以容納一定數量的客人。鴨肉則是肉質鮮甜，鄉土的鴨肉也很奇特，通常外面的鴨肉吃到最後一定會有肉絲卡在齒縫，但我吃他們的肉少說上百次，就連一次都沒卡過，吃完只能說就四個字，清爽，順口 資料來源:南華大學-2019旅遊傳播</p>
-          <p align="left" class="textword"> <br />
+        <td><p align="center" class="texttitle"><strong><a name="anchor01" id="anchor01"></a>大林鄉土當歸鴨肉麵線</strong></p>
+          <p align="left" class="textword">鄉土當歸鴨肉麵線位於嘉義縣大林火車站的前站不遠處，步行約莫5分鐘，從前站門口直直向前走，在差不多100公尺處微右轉，之後繼續直走，差不多也是100公尺的地方，他就會在你的右手邊，雖說是微右轉，但也其實就一條路而已，不用怕會迷路！裡面的空間其實不大也不小，桌子大概10來張，還是可以容納一定數量的客人。鴨肉則是肉質鮮甜，鄉土的鴨肉也很奇特，通常外面的鴨肉吃到最後一定會有肉絲卡在齒縫，但我吃他們的肉少說上百次，就連一次都沒卡過，吃完只能說就四個字，清爽，順口! <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 資料來源:南華大學-旅遊傳播</strong></p>
+          <p align="left" class="textword"><br />
             <strong>地址: 嘉義縣大林鎮中山路72號 <br />
-        營業時間:星期二~星期日  17:00-23:00 </strong></p></td>
-        <td><img src="images/5.jpg" width="500" height="375" /></td>
+        營業時間:星期二~星期日  17:00-23:00 </strong>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <a href="#top">&nbsp;top</a></p></td>
+        <td><img src="images/5.jpg" width="500" height="375" class="transition" /></td>
       </tr>
       <tr>
-        <td><p align="center" class="texttitle"><strong>祖傳豆花 </strong></p>
+        <td><p align="center" class="texttitle"><strong><a name="anchor02" id="anchor02"></a>祖傳豆花 </strong></p>
         <p class="textword">從鎮上街區到田間鄉村都能聽見叫賣聲<br />
 穿梭在大街小巷的吳祖傳豆花<br />
 小小的餐車裡蘊含著代代傳承的好味道<br />
@@ -96,11 +109,11 @@
 當問起老闆為什麼要堅持讓自己的子孫傳承這門手藝<br />
 老闆看了看她的媳婦與兩位孫子們笑著說到<br />
 「<strong>以後他們要不要靠這項技藝吃飯是他們的抉擇，但只要學起來以後總會有用到的時候</strong>」<br />
-下次看到看到這台行動式餐車身影<strong>絕對不能錯過這個傳承百年的傳統美食！</strong>      資料來源: 大林好 </p>
+下次看到看到這台行動式餐車身影<strong>絕對不能錯過這個傳承百年的傳統美食! </strong><strong>&nbsp; 資料來源: 大林好</strong>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<a href="#top"> top</a></p>
         <p class="textword"><strong>公休日 : 星期一、二<br />
           營業時間 : 10:00-14:00<br />
-        營業地點 : 大埔美社區、火車站前站社區、慈濟醫院斜對面 </strong></p></td>
-        <td><img src="images/6.jpg" width="500" height="346" /></td>
+        營業地點 : 大埔美社區、火車站前站社區、慈濟醫院斜對面</strong></p></td>
+        <td><img src="images/6.jpg" width="500" height="346" class="transition" /></td>
       </tr>
     </table>
   </div>
