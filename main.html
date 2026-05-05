@@ -24,6 +24,7 @@
 	float: left;
 	height: 600px;
 	width: 1000px;
+	overflow: auto;
 }
 #item {
 	float: right;
@@ -40,15 +41,84 @@
 	height: 50px;
 	width: 1280px;
 }
+.texttiele {
+	font-family: "微軟正黑體";
+	font-size: 24px;
+	color: #FFF;
+	font-weight: bold;
+}
+.textword {
+	font-family: "微軟正黑體";
+	font-size: 16px;
+	line-height: 22px;
+}
 </style>
 <link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
 </head>
 
-<body>
+<body onload="MM_preloadImages('images/1-2.jpg','images/2-2.jpg')">
 <div id="container">
   <div id="header"><img src="images/t01.jpg" width="1280" height="150" /></div>
-  <div id="article"> id "article" 的內容放在這裡</div>
+  <div id="article">
+    <table width="1004" height="845" border="0">
+      <tr>
+        <td height="23" colspan="2" bgcolor="#FFCC00"><div align="left" class="texttiele">
+          <div align="center"><strong>站長宿舍</strong></div>
+        </div></td>
+      </tr>
+      <tr>
+        <td width="613" height="256"><p class="textword">&nbsp;&nbsp;&nbsp; 建於日治時期，為典型日式雙併木造宿舍，鄰近大林火車站。經歷長期閒置後，曾於2013年透過「<a href="https://dalinnice.com/dalin-vacanthouse/" target="_blank" data-hveid="CAEQAQ" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=https://dalinnice.com/dalin-vacanthouse/&amp;ved=2ahUKEwjUufym9f2TAxXxsFYBHW_GCxAQy_kOegQIARAB&amp;opi=89978449" data-processed="true"><span jsuid="bZRczd_f" data-sfc-cp="" jsaction="mouseenter:&bZRczd_f|WOQqYb;mouseleave:&bZRczd_f|Tx5Rb;focusin:&bZRczd_f|mrwrPd;" jscontroller="KMhGd" data-sfc-root="c" data-sfc-cb="" data-processed="true"><strong>環保署拔尖計畫</strong></a>」活化，現為嘉義特色文化空間。</p>
+        <p class="textword">&nbsp;&nbsp;&nbsp; 該宿舍採屋頂切妻式、日式雨淋板設計，2021年曾因消防法規限制暫停對外開放，目前正<strong>積極爭取登錄為文化資產</strong>。2013年修復後，曾由大林鎮公所承租舉辦展覽，後因監察院調查建議，站長宿舍要取得使用執照才可使用，2021年台鐵終止租約收回管理，關閉至今三年，鎮民代表簡嘉榮與地方文史工作者江明赫等人期盼再度開放活化，可串聯車站周邊旅社、戲院與鐵道文化，打造大林新門面。 </p>
+        <p class="textword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 資料來源<strong> : </strong>自由時報</p></td>
+        <td width="381"><img src="images/1.jpg" name="p02" width="400" height="267" id="p02" onmouseover="MM_swapImage('p02','','images/1-2.jpg',1)" onmouseout="MM_swapImgRestore()" /></td>
+      </tr>
+      <tr>
+        <td colspan="2" bgcolor="#99CC99"><div align="center"><strong class="texttiele">萬國戲院</strong></div></td>
+      </tr>
+      <tr>
+        <td height="268"><p>&nbsp;&nbsp;&nbsp;</p>
+          <p><span class="textword"> &nbsp;&nbsp;&nbsp; 萬國戲院創立於1968年（民國五十七年）， 負責人登記為樊顏枝，樊顏枝為樊賜生的太太。又據戲院內保留的「萬國戲院」匾 額記載，該匾上款銘記「<strong>民國五十八年</strong>元旦，樊議員賜生同志，萬國戲院開幕誌慶」，  即是1969年（民國五十八年）元旦萬國戲院開幕，嘉義縣議會議長張文正暨全體縣議員贈 匾以表慶賀，該匾的正辭「萬國戲院」四個大字也是<strong>嘉義著名詩人洪蔚初題書</strong>。</span></p>
+          <p><span class="textword"> &nbsp;&nbsp;&nbsp; 嘉義縣長黃老達也贈送「客滿」匾額，以表示誌賀之意。另據1979年（民國六十七年）四月 「臺灣省嘉義縣政府營利事業登記證」的記錄，萬國戲院此時的負責人登記為樊豐榮，樊豐榮為樊賜生的四子，相關的文件證書與匾額皆為見證萬國戲院歷史的珍貴文物。 </span></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 資料來源 : 嘉義縣文化觀光局</p></td>
+        <td><img src="images/2.jpg" name="p03" width="400" height="300" id="p03" onmouseover="MM_swapImage('p03','','images/2-2.jpg',1)" onmouseout="MM_swapImgRestore()" /></td>
+      </tr>
+      <tr>
+        <td height="21" colspan="2" bgcolor="#996600" class="texttiele"><div align="center">泰成中藥行</div></td>
+      </tr>
+      <tr>
+        <td bgcolor="#FFFFFF"><p>&nbsp;&nbsp;</p>
+          <p>&nbsp;&nbsp; <span class="textword">&nbsp; 早期大林中藥行林立，泰成中藥行以賣當歸起家，並於當歸大漲的年代蓋起樓房，遂得<strong>當地人稱「當歸樓」的稱號</strong>。隱身於巷弄中的當歸樓用意在於照顧客人的隱私，因當時的風氣多半不希望生病的隱私被發現，因此相較於其他中藥行，當歸樓的生意特別好，而歴經三代傳承，從創始人開始接觸中藥的時間算起，至<strong>今已超過百年的歷史。</strong></span></p>
+          <p><span class="textword"> &nbsp;&nbsp;&nbsp; 從藥材堆長大的許開興，對中藥文化相當有興趣，在求學階段就已知曉，若想走往學醫這方面，就必須要對西醫有一點相關的知識，從而選擇護理系就讀。在就學期間面臨許多長輩生病卻無人照顧的景象，<strong>十多年前決定回到家鄉就近照顧父母，學習中藥醫學</strong>，並一肩扛起中藥行的傳承責任，在<strong>6年前接手</strong>老舖後開始著手轉型。</span></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 資料來源 : 泰成中藥官方網站</p></td>
+        <td><img src="images/3.jpg" width="400" height="240" /></td>
+      </tr>
+    </table>
+  </div>
   <div id="item">
     <ul id="MenuBar1" class="MenuBarVertical">
       <li><a href="main.html">時光的足跡</a>      </li>
