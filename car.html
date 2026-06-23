@@ -24,6 +24,7 @@
 	float: left;
 	height: 600px;
 	width: 1000px;
+	overflow: auto;
 }
 #item {
 	float: right;
@@ -40,15 +41,84 @@
 	height: 50px;
 	width: 1280px;
 }
+.titlestyle {
+	font-family: "微軟正黑體";
+	font-size: 36px;
+	color: #039;
+	text-align: center;
+}
+.textword {
+	font-family: "微軟正黑體";
+	color: #000;
+	text-align: center;
+}
+#container #article table tr td p .textword .textword {
+	text-align: center;
+}
 </style>
 <link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryEffects.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+function MM_effectAppearFade(targetElement, duration, from, to, toggle)
+{
+	Spry.Effect.DoFade(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
+}
+</script>
 </head>
 
 <body>
 <div id="container">
   <div id="header"><img src="images/t03.jpg" width="1280" height="150" /></div>
-  <div id="article"> id "article" 的內容放在這裡</div>
+  <div id="article">
+    <table width="1000" height="581" border="1">
+      <tr>
+        <td colspan="2" align="center"> <a name="top" id="top"></a>火車| <a href="#a01">高鐵轉乘</a> | <a href="#a02">國道客運</a></td>
+      </tr>
+      <tr>
+        <td colspan="2" bgcolor="#FFCC99" class="titlestyle">火車 </td>
+      </tr>
+      <tr>
+        <td colspan="2"><p class="textword"><strong>搭乘台鐵縱貫線，在大林車站下車即可，南北往來都很方便，區間車與部分自強號都有停靠。</strong></p>
+          <p> <span class="textword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 區間車是2006年11月 1 日大改點後新設的車種，此車種的出現連帶使得「電車」及「冷氣柴</span></p>
+          <p class="textword">  客」等名稱廢止併入區間車內，同時亦納入當時的屏東線通勤復興號<span lang="zh-tw" xml:lang="zh-tw">，有著順應台鐵「簡化</span></p>
+          <p><span class="textword" lang="zh-tw" xml:lang="zh-tw">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 車種」政策的意味</span><span class="textword">。區間車<span lang="zh-tw" xml:lang="zh-tw">有兩</span>個特點—全<span lang="zh-tw" xml:lang="zh-tw">列車非對號入座及</span>各站皆停的運行模式<span lang="zh-tw" xml:lang="zh-tw">，主要定</span></span></p>
+          <p class="textword">  位在服務短途通勤旅客。2006年改點當時亦新開行區間快車，安排僅停靠中型以上城鎮的車</p>
+          <p class="textword">  站，以滿足短、中程旅客快速的旅運需求。&nbsp; &nbsp;</p>
+        <p class="textword">&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td width="491" align="center"><img src="images/a-2s.jpg" width="300" height="225" onclick="MM_openBrWindow('images/a-1.jpg','','width=800,height=600')" onmouseover="MM_effectAppearFade(this, 1000, 50, 100, false)" /></td>
+        <td width="493" align="center"><img src="images/aa-2s.jpg" width="300" height="169" onclick="MM_openBrWindow('images/aa-1.jpg','','width=800,height=600')" onmouseover="MM_effectAppearFade(this, 1000, 50, 100, false)" /></td>
+      </tr>
+      <tr>
+        <td colspan="2" bgcolor="#FFCC66" class="titlestyle"><a name="a01" id="a01"></a>高鐵轉乘 </td>
+      </tr>
+      <tr>
+        <td colspan="2" class="textword"><p><strong>先搭高鐵到嘉義站或雲林, 再轉搭台鐵、公車或計程車前往大林。</strong></p>
+        <p class="textword"><span class="textword">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 台灣高鐵自通車營運以來，秉持提供旅客安全、快速的運輸服  務為最高原則，累積多年的深耕努力，已為台灣西部走廊的主  要交通骨幹，南港、台北、板橋、桃園、新竹、苗栗、台中、  彰化、雲林、嘉義、台南及左營共12個車站，連接城市間的美  好生活，傳遞幸福給每一位乘客，旅運量已突破八億大關。持續透過數位化轉型，優化「台灣高鐵智慧運輸服務系統」，提  供旅客良好的搭乘體驗，包含以數位客服提供旅客常用問題諮詢  及個人化查詢、全車提供WiFi服務，同時發展自有地震早期預  警系統等；讓旅客從訂位、購票開始，銜接乘車服務、營運安全  以及後續轉乘接駁，全程享受「智慧運輸」所帶來的優質服務。</span>&nbsp; <a href="#top">&nbsp;top</a></p></td>
+      </tr>
+      <tr>
+        <td align="center"><img src="images/c-2s.jpg" width="300" height="200" onclick="MM_openBrWindow('images/c-1.jpg','','width=800,height=600')" onmouseover="MM_effectAppearFade(this, 1000, 50, 100, false)" /></td>
+        <td align="center"><img src="images/cc-2s.jpg" width="300" height="225" onclick="MM_openBrWindow('images/cc-1.jpg','','width=800,height=600')" onmouseover="MM_effectAppearFade(this, 1000, 50, 100, false)" /></td>
+      </tr>
+      <tr>
+        <td colspan="2" bgcolor="#FFCC99" class="titlestyle"><a name="a02" id="a02"></a>國道客運 </td>
+      </tr>
+      <tr>
+        <td colspan="2"><p class="textword"><strong>從北部南下可搭乘統聯客運：1618路線 台北到嘉義 會停靠大林交流道附近的統聯客運大林站 </strong></p>
+        <p><strong><span class="textword"> <span class="textword">大林鎮內也有多條地方客運路線，可前往周邊鄉鎮白天班次大多也會停靠大林慈濟醫院，交通十分便利。 </span></span></strong></p>
+        <p><span class="textword"><span class="textword">&nbsp;&nbsp;&nbsp;</span>&nbsp; 民國 67 年，臺灣第一條高速公路-中山高速公路全線通車，國道客運路線興  起，公路客運開啟劃時代篇章。然而因違規遊覽車業者(俗稱野雞車)日益猖獗，  政府為整頓其亂象並滿足大眾需求，於民國 78 年輔導業者合資成立「統聯汽車  客運股份有限公司」，成為國內第一家獲准設立之民營國道客運公司。79 年 3 月 17 日，統聯客運台北~高雄線正式通車，這條長達 350.9 公里的路  線，自台北市忠孝東路二段 8 號車站出發後，經台北市境路段台北交流道、高速  公路中正交流道至七賢一路 292 號終點站止，發車時間從凌晨開始，每半小時一  班車，日夜無休&nbsp; &nbsp;</span>&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  <a href="#top">top</a></p></td>
+      </tr>
+      <tr>
+        <td align="center"><img src="images/bb-2s.jpg" width="300" height="200" onclick="MM_openBrWindow('images/bb-1.jpg','','width=800,height=600')" onmouseover="MM_effectAppearFade(this, 1000, 50, 100, false)" /></td>
+        <td align="center"><img src="images/b-2s.jpg" width="300" height="169" onclick="MM_openBrWindow('images/b-1.jpg','','width=800,height=600')" onmouseover="MM_effectAppearFade(this, 1000, 50, 100, false)" /></td>
+      </tr>
+    </table>
+  </div>
   <div id="item"> <ul id="MenuBar1" class="MenuBarVertical">
       <li><a href="main.html">時光的足跡</a>      </li>
       <li><a href="food.html">小鎮好食光</a></li>
