@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>微風之城</title>
+<style type="text/css">
+#container {
+	height: 800px;
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#container {
+	height: 800px;
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	height: 150px;
+	width: 1280px;
+}
+#article {
+	float: left;
+	height: 600px;
+	width: 1000px;
+	overflow: auto;
+}
+#item {
+	float: right;
+	height: 600px;
+	width: 280px;
+}
+#item {
+	float: right;
+	height: 600px;
+	width: 280px;
+}
+#footer {
+	float: left;
+	height: 50px;
+	width: 1280px;
+}
+.form1{
+	border-radius:5;
+	font-size:24px;
+	margin-top:30px;
+	margin-left:50px;
+}
+.button{
+	bborder-radius:10px;
+	font-size:24px;
+	background-color:#FFCCCC;
+}
+</style>
+<link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="container">
+  <div id="header"><img src="images/t05.jpg" width="1280" height="150" /></div>
+  <div id="article">
+    <form id="form1" name="form1" method="post" action=""class="form1">
+      <p>姓名：
+        <label for="name"></label>
+        <input type="text" name="name" id="name" />
+      </p>
+      <p>性別：
+        
+        <input name="sex" type="radio" id="sex" value="man" checked="checked" />
+        <label for="sex"></label>
+      男
+      <input name="sex" type="radio" id="sex2" value="woman" />
+      <label for="sex2"></label>
+      女
+      </p>
+      <p>職業：
+        <label for="select"></label>
+        <select name="select" id="select">
+          <option>學生</option>
+          <option>軍公教人員</option>
+          <option>服務業</option>
+          <option>商業</option>
+          <option>工業</option>
+        </select>
+      </p>
+      <p>回覆時間<strong>（可複選）</strong>：
+        <input type="checkbox" name="time1" id="time1" />
+        <label for="time1"></label>
+      早上
+      <input type="checkbox" name="time2" id="time2" />
+      中午
+      <input type="checkbox" name="time3" id="time3" />
+      <label for="time3"></label>
+<label for="time2"></label>
+      晚上</p>
+      <p>e-mail ：
+        <label for="textfield"></label>
+        <input type="text" name="textfield" id="textfield" />
+      </p>
+      <p>填寫日期： 
+     　<label for="dt"></label>
+      <input type="date" name="dt" id="dt" />
+      </p>
+      <p>詢問內容：
+        <label for="textfield2"></label>
+        <label for="question"></label>
+        <textarea name="question" id="question" cols="45" rows="5"></textarea>
+      </p>
+      <p>
+        <input type="submit" name="sumit" id="sumit" value="送出" class="button"/>
+        <input type="reset" name="reset" id="reset" value="重設" class="button"/>
+      </p>
+    </form>
+    <iframe src="test1.html" width="900" height="400" frameborder="0" scrolling="no"></iframe>
+  </div>
+  <div id="item"> <ul id="MenuBar1" class="MenuBarVertical">
+      <li><a href="main.html">時光的足跡</a>      </li>
+      <li><a href="food.html">小鎮好食光</a></li>
+      <li><a href="car.html">小鎮移動</a>      </li>
+      <li><a href="aboutme.html">關於我</a></li>
+      <li><a href="contact.html">與我聯絡</a></li>
+      <li><a href="index.html">回首頁</a></li>
+    </ul></div>
+  <div id="footer"><img src="images/t06.jpg" width="1280" height="50" /></div>
+</div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
